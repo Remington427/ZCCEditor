@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>editorForm</class>
+ <widget class="QWidget" name="editorForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1490</width>
+    <height>1074</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="1">
+    <widget class="QGraphicsView" name="graphicsView">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>1039</width>
+       <height>898</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>1430</width>
+       <height>1235</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QFrame" name="frame">
+     <property name="maximumSize">
+      <size>
+       <width>700</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Shape::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="title">
+         <string>Card Infos</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="2" column="2">
+          <widget class="QPushButton" name="uploadImage_pb">
+           <property name="text">
+            <string>Upload</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="cardType_la">
+           <property name="text">
+            <string>Card Type</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QLineEdit" name="cardName_le"/>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="backgroundImage_la">
+           <property name="text">
+            <string>Background Image</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="cardName_la">
+           <property name="text">
+            <string>Card name</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <widget class="QComboBox" name="cardType_cb"/>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="imageSize_la">
+           <property name="text">
+            <string>Background image size</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="2">
+          <widget class="QSlider" name="imageSize_hsl">
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Orientation::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_2">
+        <property name="title">
+         <string>Survivor Card</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_5">
+         <item row="5" column="0">
+          <widget class="QLabel" name="redLevel_la_2">
+           <property name="text">
+            <string>Red Level 2</string>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="0">
+          <widget class="QLabel" name="health_la">
+           <property name="text">
+            <string>Health points</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="orangeLevel_la">
+           <property name="text">
+            <string>Orange Level</string>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="1">
+          <widget class="QComboBox" name="class_cb"/>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="yellowLevel_la">
+           <property name="frameShape">
+            <enum>QFrame::Shape::NoFrame</enum>
+           </property>
+           <property name="text">
+            <string>Yellow Level</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QComboBox" name="orangeLevel_cb"/>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="orangeLevel_la_2">
+           <property name="text">
+            <string>Orange Level 2</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QComboBox" name="redLevel_cb"/>
+         </item>
+         <item row="0" column="1">
+          <widget class="QComboBox" name="blueLevel_cb"/>
+         </item>
+         <item row="6" column="0">
+          <widget class="QLabel" name="redLevel_la_3">
+           <property name="text">
+            <string>Red Level 3</string>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="1">
+          <widget class="QSpinBox" name="health_sb"/>
+         </item>
+         <item row="3" column="1">
+          <widget class="QComboBox" name="orangeLevel_cb_2"/>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="blueLevel_la">
+           <property name="text">
+            <string>Blue Level</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="redLevel_la">
+           <property name="text">
+            <string>Red Level</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="1">
+          <widget class="QComboBox" name="redLevel_cb_3"/>
+         </item>
+         <item row="1" column="1">
+          <widget class="QComboBox" name="yellowLevel_cb"/>
+         </item>
+         <item row="7" column="0">
+          <widget class="QLabel" name="class_la">
+           <property name="text">
+            <string>Class</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="QComboBox" name="redLevel_cb_2"/>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_3">
+        <property name="title">
+         <string>Equipment Card</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_3">
+         <item row="3" column="0">
+          <widget class="QPushButton" name="addKeyword_pb">
+           <property name="text">
+            <string>Add Keyword</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLineEdit" name="description_le"/>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="description_la">
+           <property name="text">
+            <string>Description</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QComboBox" name="addKeyword_cb"/>
+         </item>
+         <item row="0" column="1">
+          <widget class="QComboBox" name="backgroundType_cb"/>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="backgroundType_la">
+           <property name="text">
+            <string>Background Type</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="QComboBox" name="equipmentType_cb"/>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLabel" name="equipmentType_la">
+           <property name="text">
+            <string>Equipment Type</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QPushButton" name="removeKeyword_pb">
+           <property name="text">
+            <string>Remove Keyword</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QComboBox" name="removeKeyword_cb"/>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_4">
+        <property name="title">
+         <string>Weapon Stats</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_4">
+         <item row="9" column="0">
+          <widget class="QLabel" name="ammoType_la">
+           <property name="text">
+            <string>Ammo Type</string>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="1">
+          <widget class="QComboBox" name="ammoType_cb"/>
+         </item>
+         <item row="10" column="1">
+          <widget class="QComboBox" name="doorBreach_cb"/>
+         </item>
+         <item row="11" column="1">
+          <widget class="QCheckBox" name="dual_cb">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="11" column="0">
+          <widget class="QLabel" name="dual_la">
+           <property name="text">
+            <string>Dual</string>
+           </property>
+          </widget>
+         </item>
+         <item row="10" column="0">
+          <widget class="QLabel" name="doorBreach_la">
+           <property name="text">
+            <string>Door Breach</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QGroupBox" name="firstAttack_gb">
+           <property name="title">
+            <string>Fisrt Attack</string>
+           </property>
+           <layout class="QFormLayout" name="formLayout">
+            <item row="1" column="0">
+             <widget class="QLabel" name="minRange_la">
+              <property name="text">
+               <string>Min Range</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QSpinBox" name="minRange_sb"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="maxRange_la">
+              <property name="text">
+               <string>Max Range</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QSpinBox" name="maxRange_sb"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="diceNumber_la">
+              <property name="text">
+               <string>Dice Number</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QSpinBox" name="diceNumber_sb"/>
+            </item>
+            <item row="5" column="0">
+             <widget class="QLabel" name="minDiceScore_la">
+              <property name="text">
+               <string>Min Dice Score</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QSpinBox" name="minDiceScore_sb"/>
+            </item>
+            <item row="6" column="0">
+             <widget class="QLabel" name="damage_la">
+              <property name="text">
+               <string>Damage</string>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="1">
+             <widget class="QSpinBox" name="damage_sb"/>
+            </item>
+            <item row="7" column="1">
+             <widget class="QComboBox" name="noiseIndicator_cb"/>
+            </item>
+            <item row="7" column="0">
+             <widget class="QLabel" name="noiseIndicator_la">
+              <property name="text">
+               <string>Noise Indicator</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QLabel" name="weaponType_la">
+              <property name="text">
+               <string>Attack Type</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QComboBox" name="weaponType_cb"/>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>Double mode</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QCheckBox" name="doubleAttack_cb">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QGroupBox" name="secondAttack_gb">
+           <property name="title">
+            <string>Second Attack</string>
+           </property>
+           <layout class="QFormLayout" name="formLayout_2">
+            <item row="0" column="0">
+             <widget class="QLabel" name="weaponTypeS_la">
+              <property name="text">
+               <string>Attack Type</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QComboBox" name="weaponTypeS_cb"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="maxRangeS_la">
+              <property name="text">
+               <string>Max Range</string>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="0">
+             <widget class="QLabel" name="noiseIndicatorS_la">
+              <property name="text">
+               <string>Noise Indicator</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="0">
+             <widget class="QLabel" name="damageS_la">
+              <property name="text">
+               <string>Damage</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <widget class="QLabel" name="minDiceScoreS_la">
+              <property name="text">
+               <string>Min Dice Score</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="diceNumberS_la">
+              <property name="text">
+               <string>Dice Number</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="minRangeS_la">
+              <property name="text">
+               <string>Min Range</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QSpinBox" name="minRangeS_sb"/>
+            </item>
+            <item row="2" column="1">
+             <widget class="QSpinBox" name="maxRangeS_sb"/>
+            </item>
+            <item row="3" column="1">
+             <widget class="QSpinBox" name="diceNumberS_sb"/>
+            </item>
+            <item row="4" column="1">
+             <widget class="QSpinBox" name="minDiceScoreS_sb"/>
+            </item>
+            <item row="5" column="1">
+             <widget class="QSpinBox" name="damageS_sb"/>
+            </item>
+            <item row="6" column="1">
+             <widget class="QComboBox" name="noiseIndicatorS_cb"/>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="RollOutDiceNumber_la">
+           <property name="text">
+            <string>Roll Out Dice Number</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QSpinBox" name="rollOutDiceNumber_sb"/>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Orientation::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

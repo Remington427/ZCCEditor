@@ -13,7 +13,7 @@ public:
     ~NotImplementedDialog();
 
 private:
-    Ui::Form ui;
+    Ui::notImplementedDialogForm ui;
 };
 
 #endif // NOTIMPLEMENTEDDIALOG_H

@@ -34,7 +34,7 @@
     <addaction name="actionSaveAs"/>
     <addaction name="actionExport"/>
     <addaction name="separator"/>
-    <addaction name="actionParamaters"/>
+    <addaction name="actionParameters"/>
     <addaction name="separator"/>
     <addaction name="actionExit"/>
    </widget>
@@ -42,7 +42,7 @@
     <property name="title">
      <string>Edition</string>
     </property>
-    <addaction name="actionProprerty"/>
+    <addaction name="actionProperties"/>
    </widget>
    <addaction name="menuFile"/>
    <addaction name="menuEdition"/>
@@ -61,7 +61,7 @@
    <addaction name="actionSaveAs"/>
    <addaction name="actionExport"/>
    <addaction name="separator"/>
-   <addaction name="actionProprerty"/>
+   <addaction name="actionProperties"/>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
   <action name="actionNew">
@@ -96,12 +96,12 @@
     <string>Save as...</string>
    </property>
   </action>
-  <action name="actionParamaters">
+  <action name="actionParameters">
    <property name="text">
     <string>Settings</string>
    </property>
   </action>
-  <action name="actionProprerty">
+  <action name="actionProperties">
    <property name="icon">
     <iconset theme="QIcon::ThemeIcon::DocumentProperties"/>
    </property>

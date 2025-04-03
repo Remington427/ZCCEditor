@@ -3,12 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF297AFC-C8C4-4D47-AE89-5F958A31D32E}|CardEditor.vcxproj|C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\MainToolbar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FF297AFC-C8C4-4D47-AE89-5F958A31D32E}|CardEditor.vcxproj|solutionrelative:MainToolbar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{FF297AFC-C8C4-4D47-AE89-5F958A31D32E}|CardEditor.vcxproj|C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\CardEditor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FF297AFC-C8C4-4D47-AE89-5F958A31D32E}|CardEditor.vcxproj|solutionrelative:CardEditor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF297AFC-C8C4-4D47-AE89-5F958A31D32E}|CardEditor.vcxproj|C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\CardEditor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FF297AFC-C8C4-4D47-AE89-5F958A31D32E}|CardEditor.vcxproj|solutionrelative:CardEditor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF297AFC-C8C4-4D47-AE89-5F958A31D32E}|CardEditor.vcxproj|C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\ScalableItem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FF297AFC-C8C4-4D47-AE89-5F958A31D32E}|CardEditor.vcxproj|solutionrelative:ScalableItem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF297AFC-C8C4-4D47-AE89-5F958A31D32E}|CardEditor.vcxproj|C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\ScalableItem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FF297AFC-C8C4-4D47-AE89-5F958A31D32E}|CardEditor.vcxproj|solutionrelative:ScalableItem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\CardEditor\\x64\\Debug\\qt\\uic\\ui_NewDialog.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CardEditor\\x64\\Debug\\qt\\uic\\ui_NewDialog.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF297AFC-C8C4-4D47-AE89-5F958A31D32E}|CardEditor.vcxproj|C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\MainWindow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FF297AFC-C8C4-4D47-AE89-5F958A31D32E}|CardEditor.vcxproj|solutionrelative:MainWindow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF297AFC-C8C4-4D47-AE89-5F958A31D32E}|CardEditor.vcxproj|C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\NewDialog.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FF297AFC-C8C4-4D47-AE89-5F958A31D32E}|CardEditor.vcxproj|solutionrelative:NewDialog.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF297AFC-C8C4-4D47-AE89-5F958A31D32E}|CardEditor.vcxproj|C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\NewDialog.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FF297AFC-C8C4-4D47-AE89-5F958A31D32E}|CardEditor.vcxproj|solutionrelative:NewDialog.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF297AFC-C8C4-4D47-AE89-5F958A31D32E}|CardEditor.vcxproj|C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\Enums.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FF297AFC-C8C4-4D47-AE89-5F958A31D32E}|CardEditor.vcxproj|solutionrelative:Enums.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF297AFC-C8C4-4D47-AE89-5F958A31D32E}|CardEditor.vcxproj|C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\MainWindow.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FF297AFC-C8C4-4D47-AE89-5F958A31D32E}|CardEditor.vcxproj|solutionrelative:MainWindow.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF297AFC-C8C4-4D47-AE89-5F958A31D32E}|CardEditor.vcxproj|C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\NotImplementedDialog.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -17,14 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FF297AFC-C8C4-4D47-AE89-5F958A31D32E}|CardEditor.vcxproj|C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\NotImplementedDialog.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FF297AFC-C8C4-4D47-AE89-5F958A31D32E}|CardEditor.vcxproj|solutionrelative:NotImplementedDialog.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF297AFC-C8C4-4D47-AE89-5F958A31D32E}|CardEditor.vcxproj|C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\MainToolbar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FF297AFC-C8C4-4D47-AE89-5F958A31D32E}|CardEditor.vcxproj|solutionrelative:MainToolbar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF297AFC-C8C4-4D47-AE89-5F958A31D32E}|CardEditor.vcxproj|C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\MainWindow.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FF297AFC-C8C4-4D47-AE89-5F958A31D32E}|CardEditor.vcxproj|solutionrelative:MainWindow.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,78 +58,150 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "ScalableItem.cpp",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\ScalableItem.cpp",
+              "RelativeDocumentMoniker": "ScalableItem.cpp",
+              "ToolTip": "C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\ScalableItem.cpp",
+              "RelativeToolTip": "ScalableItem.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-27T10:15:53.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ScalableItem.h",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\ScalableItem.h",
+              "RelativeDocumentMoniker": "ScalableItem.h",
+              "ToolTip": "C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\ScalableItem.h",
+              "RelativeToolTip": "ScalableItem.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-27T10:13:53.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ui_NewDialog.h",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\CardEditor\\x64\\Debug\\qt\\uic\\ui_NewDialog.h",
+              "RelativeDocumentMoniker": "CardEditor\\x64\\Debug\\qt\\uic\\ui_NewDialog.h",
+              "ToolTip": "C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\CardEditor\\x64\\Debug\\qt\\uic\\ui_NewDialog.h",
+              "RelativeToolTip": "CardEditor\\x64\\Debug\\qt\\uic\\ui_NewDialog.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-10T14:14:40.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CardEditor.cpp",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\CardEditor.cpp",
+              "RelativeDocumentMoniker": "CardEditor.cpp",
+              "ToolTip": "C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\CardEditor.cpp",
+              "RelativeToolTip": "CardEditor.cpp",
+              "ViewState": "AgIAANUAAAAAAAAAAAAAAOEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-10T13:26:40.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CardEditor.h",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\CardEditor.h",
+              "RelativeDocumentMoniker": "CardEditor.h",
+              "ToolTip": "C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\CardEditor.h*",
+              "RelativeToolTip": "CardEditor.h*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-10T13:26:31.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Enums.h",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\Enums.h",
+              "RelativeDocumentMoniker": "Enums.h",
+              "ToolTip": "C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\Enums.h",
+              "RelativeToolTip": "Enums.h",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAIcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-10T14:59:24.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NewDialog.cpp",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\NewDialog.cpp",
+              "RelativeDocumentMoniker": "NewDialog.cpp",
+              "ToolTip": "C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\NewDialog.cpp",
+              "RelativeToolTip": "NewDialog.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-10T14:12:29.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NewDialog.h",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\NewDialog.h",
+              "RelativeDocumentMoniker": "NewDialog.h",
+              "ToolTip": "C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\NewDialog.h",
+              "RelativeToolTip": "NewDialog.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-10T14:10:29.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "MainWindow.h",
               "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\MainWindow.h",
               "RelativeDocumentMoniker": "MainWindow.h",
               "ToolTip": "C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\MainWindow.h",
               "RelativeToolTip": "MainWindow.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-29T14:47:51.97Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "MainWindow.cpp",
               "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\MainWindow.cpp",
               "RelativeDocumentMoniker": "MainWindow.cpp",
               "ToolTip": "C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\MainWindow.cpp",
               "RelativeToolTip": "MainWindow.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAASwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-29T14:39:25.763Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainToolbar.h",
-              "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\MainToolbar.h",
-              "RelativeDocumentMoniker": "MainToolbar.h",
-              "ToolTip": "C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\MainToolbar.h",
-              "RelativeToolTip": "MainToolbar.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-29T14:47:53.662Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainToolbar.cpp",
-              "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\MainToolbar.cpp",
-              "RelativeDocumentMoniker": "MainToolbar.cpp",
-              "ToolTip": "C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\MainToolbar.cpp",
-              "RelativeToolTip": "MainToolbar.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-29T14:47:55.526Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "NotImplementedDialog.h",
               "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\NotImplementedDialog.h",
               "RelativeDocumentMoniker": "NotImplementedDialog.h",
               "ToolTip": "C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\NotImplementedDialog.h",
               "RelativeToolTip": "NotImplementedDialog.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-29T16:56:06.452Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "NotImplementedDialog.cpp",
               "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\NotImplementedDialog.cpp",
               "RelativeDocumentMoniker": "NotImplementedDialog.cpp",
               "ToolTip": "C:\\Users\\Utilisateur\\Documents\\GitHub\\ZCCEditor\\CardEditor\\NotImplementedDialog.cpp",
               "RelativeToolTip": "NotImplementedDialog.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-29T16:56:43.465Z"
             }

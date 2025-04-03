@@ -14,10 +14,12 @@ public:
 signals:
     void openTriggered();
     void saveTriggered();
+    void saveAsTriggered();
 
 private:
     QAction* actionOpen;
     QAction* actionSave;
+    QAction* actionSaveAs;
 };
 
 #endif // MAINTOOLBAR_H

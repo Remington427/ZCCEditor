@@ -58,6 +58,7 @@
 *.yml
 
 # Directories
+.vs/
 Makefile
 Debug/
 Release/
