@@ -7,6 +7,9 @@
 CardEditor::CardEditor(std::string card_name, CardType type, QWidget* parent) :
     QWidget(parent)
 {
+
+    // ScrollBarPolicy
+    
     // Déclaration des maps
     cardTypeMap = new QMap<QString, CardType>;
     equipementTypeMap = new QMap<QString, EquipmentType>;
@@ -208,8 +211,9 @@ CardEditor::CardEditor(std::string card_name, CardType type, QWidget* parent) :
     ui.secondAttack_gb->hide();
 
     // Slider taille de l'image
-    ui.imageSize_hsl->setMinimum(0.1);
-    ui.imageSize_hsl->setMaximum(10.0);
+    ui.imageSize_hsl->setValue(10);
+    ui.imageSize_hsl->setMinimum(1);
+    ui.imageSize_hsl->setMaximum(20);
 
     scene = new QGraphicsScene(this);
 
@@ -246,11 +250,16 @@ CardEditor::CardEditor(std::string card_name, CardType type, QWidget* parent) :
     }
     // Image de fond
     ui.graphicsView->setScene(scene);
+    QRect rcontent = ui.graphicsView->contentsRect();
+    ui.graphicsView->setSceneRect(0, 0, rcontent.width(), rcontent.height());
+    ui.graphicsView->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
+    ui.graphicsView->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
 
     // SIGNAUX
     connect(ui.cardName_le, SIGNAL(textChanged(const QString)), this, SLOT(cardNameChanged(const QString)));
     connect(ui.cardType_cb, SIGNAL(currentIndexChanged(int)), this, SLOT(cardTypeChanged(int)));
     connect(ui.uploadImage_pb, SIGNAL(clicked(bool)), this, SLOT(uploadImageClicked(bool)));
+    connect(ui.imageSize_hsl, SIGNAL(valueChanged(int)), this, SLOT(updateImageZoom(int)));
     connect(ui.equipmentType_cb, SIGNAL(currentIndexChanged(int)), this, SLOT(equipmentTypeChanged(int)));
     connect(ui.doubleAttack_cb, SIGNAL(checkStateChanged(Qt::CheckState)), this, SLOT(numberOfAttackModeChanged(Qt::CheckState)));
     connect(ui.blueLevel_cb, SIGNAL(currentIndexChanged(int)), this, SLOT(blueLevelChanged(int)));
@@ -391,4 +400,9 @@ void CardEditor::uploadImageClicked(bool checked)
     QString image_file = QFileDialog::getOpenFileName(this, "Choose card image", "C://", "Images (*.png *.xpm *.jpg)");
     imagePM.load(image_file);
     cardImage->setPixmap(imagePM);
+}
+
+void CardEditor::updateImageZoom(int value)
+{
+    cardImage->updateImageZoom(0.1f * value);
 }

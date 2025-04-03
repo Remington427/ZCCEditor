@@ -9,6 +9,7 @@ class ScalableItem : public QGraphicsPixmapItem
 {
 	public:
 		ScalableItem();
+		void updateImageZoom(float value);
 	protected:
 		void wheelEvent(QGraphicsSceneWheelEvent* event);
 		QVariant itemChange(GraphicsItemChange change, const QVariant& value);

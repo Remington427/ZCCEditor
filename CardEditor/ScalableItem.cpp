@@ -14,11 +14,17 @@ ScalableItem::ScalableItem()
 	max_height = 1000;
 }
 
+void ScalableItem::updateImageZoom(float value)
+{
+	zoom = value;
+	setScale(zoom);
+}
+
 void ScalableItem::wheelEvent(QGraphicsSceneWheelEvent* event)
 {
 
 
-	float steps = float(event->delta()) / (15.f * 8.f * 10.f);
+	/*float steps = float(event->delta()) / (15.f * 8.f * 10.f);
 
 	std::cout << "Wheel event delta = " << steps << std::endl;
 	QSizeF size = boundingRect().size() * (scale() + steps);
@@ -29,26 +35,26 @@ void ScalableItem::wheelEvent(QGraphicsSceneWheelEvent* event)
 			zoom += steps;
 			setScale(zoom);
 		}
-	}
+	}*/
 	QGraphicsPixmapItem::wheelEvent(event);
 }
 
 QVariant ScalableItem::itemChange(GraphicsItemChange change, const QVariant& value)
 {
-	QSizeF size = boundingRect().size() * scale();
-	int _w = size.width();
-	int _h = size.height();
-	if (change == ItemPositionChange && scene()) {
-		// value is the new position.
-		QPointF newPos = value.toPointF();
-		QRectF rect(0,0,1049,908);
+	//QSizeF size = boundingRect().size() * scale();
+	//int _w = size.width();
+	//int _h = size.height();
+	//if (change == ItemPositionChange && scene()) {
+	//	// value is the new position.
+	//	QPointF newPos = value.toPointF();
+	//	QRectF rect(0,0,1049,908);
 
-		if (!rect.contains(newPos.x() - _w, newPos.y() - _h) || !rect.contains(newPos.x() - _w, newPos.y()) || !rect.contains(newPos.x(), newPos.y()) || !rect.contains(newPos.x(), newPos.y() - _h)) {
-			// Keep the item inside the scene rect.
-			newPos.setX(qMin(rect.right() - _w, qMax(newPos.x(), rect.left())));
-			newPos.setY(qMin(rect.bottom() - _h, qMax(newPos.y(), rect.top())));
-			return newPos;
-		}
-	}
+	//	if (!rect.contains(newPos.x() - _w, newPos.y() - _h) || !rect.contains(newPos.x() - _w, newPos.y()) || !rect.contains(newPos.x(), newPos.y()) || !rect.contains(newPos.x(), newPos.y() - _h)) {
+	//		// Keep the item inside the scene rect.
+	//		newPos.setX(qMin(rect.right() - _w, qMax(newPos.x(), rect.left())));
+	//		newPos.setY(qMin(rect.bottom() - _h, qMax(newPos.y(), rect.top())));
+	//		return newPos;
+	//	}
+	//}
 	return QGraphicsPixmapItem::itemChange(change, value);
 }

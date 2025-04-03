@@ -20,6 +20,7 @@ private slots:
     void cardNameChanged(const QString& text);
     void cardTypeChanged(int index);
     void uploadImageClicked(bool checked = false);
+    void updateImageZoom(int value);
     void blueLevelChanged(int index);
     void yellowLevelChanged(int index);
     void orange_first_LevelChanged(int index);
